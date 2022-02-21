@@ -2,14 +2,13 @@ plugins {
     id 'com.android.library'
     id 'maven-publish'
     id 'org.jetbrains.kotlin.android'
-    
+
 }
 
 android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.echoios.testsdk"
         minSdk 23
         targetSdk 31
         versionCode 1
